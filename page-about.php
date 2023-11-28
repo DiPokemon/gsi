@@ -24,7 +24,7 @@
                 <div class="about_slider-item">
                     <figure>
                         <a rel="lightbox" class="glightbox" href="<?= $cert['cert_img'] ?>">
-                            <img loading="lazy" rel="lightbox" class="about_slider-img" src="<?= $cert['cert_img'] ?>" alt="<?= $cert['cert_ialt'] ?>" title="<?= $cert['cert_title'] ?>"> 
+                            <img loading="lazy" rel="lightbox" class="about_slider-img" src="<?= $cert['cert_img'] ?>" alt="<?= $cert['cert_alt'] ?>" title="<?= $cert['cert_title'] ?>"> 
                         </a>   
                     </figure> 
                 </div>
