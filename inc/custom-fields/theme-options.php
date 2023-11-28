@@ -156,8 +156,13 @@ $basic_options_container = Container::make( 'theme_options', __( 'Theme options'
             ))       
     ) )
 
-    ->add_tab( __( 'Request', 'gsi' ), array(              
-        Field::make( 'text', 'request_cf_shortcode', __( 'CF Shortcode', 'gsi' ) )
-            ->set_width(100)
-            ->set_attribute( 'placeholder', '[contact-form-7 id="1" title="Contact form 1"]' ),        
-    ) );
+    ->add_tab( __( 'Request', 'gsi' ), array( 
+        Field::make( 'text', 'request_title', __('Request title', 'gsi'))
+            ->set_attribute('placeholder', 'Оставить заявку')
+            ->set_width(25),
+        Field::make( 'text', 'request_cf_shortcode', __('Request CF', 'gsi'))
+            ->set_attribute('placeholder', '[contact-form-7 id="1f9fa54" title="CF"]')
+            ->set_width(25),
+        Field::make( 'rich_text', 'request_text', __('Request text', 'gsi'))            
+            ->set_width(50),      
+    )); 

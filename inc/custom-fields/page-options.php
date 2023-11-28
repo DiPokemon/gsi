@@ -178,13 +178,13 @@ Container::make( 'post_meta', __( 'Main page fields', 'gsi' ) )
             ))       
     ))
 
-    ->add_tab( __( 'Request', 'gsi' ), array( 
-        Field::make( 'text', 'request_title', __('Request title', 'gsi'))
-            ->set_attribute('placeholder', 'Оставить заявку')
-            ->set_width(25),
-        Field::make( 'rich_text', 'request_text', __('Request text', 'gsi'))            
-            ->set_width(25),      
-    ))    
+    // ->add_tab( __( 'Request', 'gsi' ), array( 
+    //     Field::make( 'text', 'request_title', __('Request title', 'gsi'))
+    //         ->set_attribute('placeholder', 'Оставить заявку')
+    //         ->set_width(25),
+    //     Field::make( 'rich_text', 'request_text', __('Request text', 'gsi'))            
+    //         ->set_width(25),      
+    // ))    
 
     ->add_tab( __( 'Steps', 'gsi' ), array( 
         Field::make( 'text', 'steps_title', __('Title', 'gsi'))

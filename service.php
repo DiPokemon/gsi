@@ -69,7 +69,7 @@
 <meta itemprop="datePublished" content="<?php echo get_the_date('j.m.Y'); ?>">
 <meta itemprop="dateModified" content="<?php the_modified_time('j.m.Y');?>">
 <meta itemprop="image" content="<?php the_post_thumbnail_url('full') ?>">
-<meta itemprop="articleSection" content="<? $category = get_the_category(); echo $category[0]->name;?> ">
+<meta itemprop="articleSection" content="">
 
 <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
     <link itemprop="url" href="<?= get_home_url(); ?>">

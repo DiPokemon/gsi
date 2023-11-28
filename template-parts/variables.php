@@ -54,6 +54,8 @@
   $certificates = carbon_get_theme_option( 'certificates' );
 
   /* REQUEST */ 
+  $request_title = carbon_get_theme_option( 'request_title' );
+  $request_text = wpautop(carbon_get_theme_option( 'request_text' ));
   $cf7_shortcode = carbon_get_theme_option( 'request_cf_shortcode' );
 
 
@@ -88,8 +90,7 @@
   $advantages_title = carbon_get_the_post_meta( 'advantages_title' );
   $advantages = carbon_get_the_post_meta( 'advantages_items' );
 
-  $request_title = carbon_get_the_post_meta( 'request_title' );
-  $request_text = wpautop(carbon_get_the_post_meta( 'request_text' ));
+  
 
   $steps_title = carbon_get_the_post_meta( 'steps_title' );
   $steps = carbon_get_the_post_meta( 'steps_items' );

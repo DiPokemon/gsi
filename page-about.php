@@ -72,7 +72,7 @@
     <div class="map_text">
         <?= $map_text ?>
     </div>
-    <div id="map_container" class="map container-fluid">  
+    <div id="map_container" class="map container-fluid" style="background-image: url(<?= $map_img ?>);">  
         <script id="ymap_lazy" type="text/javascript" charset="utf-8" async data-src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A66c41d9cc7dcee79558d6c1878f824fb9f46b8a7f7e652a3f7989013889c06e5&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
 </section>         

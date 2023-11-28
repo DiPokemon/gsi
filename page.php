@@ -12,27 +12,22 @@
  * @package gsi
  */
 
-get_header();
-?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
-
-<?php
-get_sidebar();
-get_footer();
+ get_header(); ?>
+ <?php include 'template-parts/variables.php' ?>
+ 
+ <section class="page_header">
+	 <div class="container">
+		 <h1 itemprop="headline" class="page-header__title"><?php the_title(); ?></h1>       
+		 <?php if ( function_exists( 'breadcrumbs' ) ) breadcrumbs(); ?>                      
+	 </div>                
+ </section>
+ 
+ <section>
+	 <div class="container text_page">
+		 <div class="post_top-text">
+			 <?php the_content(); ?>
+		 </div>   
+	 </div>
+ </section>
+ <?php get_footer(); ?>
