@@ -1,0 +1,48 @@
+$white: #fff;
+$blue: #2f75ac;
+$orange: #ffad12;
+$dark_blue: #042b59;
+$red: #ff0000;
+$green: #438f3b;
+$gray: #54595f;
+$black: #000000;
+
+body.lock {
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1140px;    
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: $gray;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .h2 {
+    font-weight: 600;
+  }
+  .btn {
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  .subtitle {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+  }
+  
+  .yellow_bg {
+    color: $black;
+  }
