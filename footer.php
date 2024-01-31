@@ -14,58 +14,6 @@
 
 </main>
 
-<div class="ads_block-desktop">          
-  <div id="yandex_rtb_R-A-2076247-1"></div>
-  <script>
-	var event_status = false;
-	window.addEventListener("load", function() {             
-		["mouseover", "click", "scroll"].forEach(function(event) {              
-			window.addEventListener(event, function() {                      
-				if(!event_status) {
-					window.yaContextCb.push(()=>{
-					  Ya.Context.AdvManager.render({
-						renderTo: 'yandex_rtb_R-A-2076247-1',
-						blockId: 'R-A-2076247-1'
-					  })
-					})                          
-					event_status = true;            
-				}                    
-			}, 
-			{
-			  once: true
-			});              
-		});            
-	});
-  </script>        
-</div>
-
-
-
-<div class="ads_block-mobile">
-  <div id="yandex_rtb_R-A-2076247-2"></div>
-  <script>
-	var event_status = false;
-	window.addEventListener("load", function() {             
-		["mouseover", "click", "scroll"].forEach(function(event) {              
-			window.addEventListener(event, function() {                      
-				if(!event_status) {
-				  window.yaContextCb.push(()=>{
-					Ya.Context.AdvManager.render({
-					  renderTo: 'yandex_rtb_R-A-2076247-2',
-					  blockId: 'R-A-2076247-2'
-					})
-				  })                          
-					event_status = true;            
-				}                    
-			}, 
-			{
-			  once: true
-			});              
-		});            
-	});
-  </script>
-</div>
-
 <footer itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WPFooter">
   <div class="footer-top">
 	 <div class="container">
