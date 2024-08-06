@@ -31,7 +31,7 @@
         </div>
     </section>
 <?php endif; ?>
-
+<!--
 <?php if($promo_title): ?>
     <section class="yellow">
         <div class="yellow_bg">
@@ -86,7 +86,7 @@
         </div>    
     </section>
 <?php endif; ?>
-
+                        -->
 <?php if($testimonials): ?>
     <section>
         <div class="container">
